@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.row-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.decorated-box {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.decorated-image {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.decorated-box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

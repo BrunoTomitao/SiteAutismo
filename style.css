@@ -1,0 +1,212 @@
+/* estilos globais */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    color: #25282e;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 1rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #020102;
+    --text-color: #020102;
+    --bg-color: #fff;
+}
+
+a, i {
+    transition: .5s;
+    text-decoration: none;
+}
+
+.secondary-color {
+    color: #555;
+}
+
+.center-image {
+    background-size: cover;
+    background-position: center;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #25282e;
+    color: #fff;
+    padding: 7px 18px;
+    border-radius: 0;
+}
+
+.btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* header */
+#header {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: beige;
+}
+
+#header p {
+    margin-bottom: 0;
+}
+
+#logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    width: 70px;
+    margin-right: 5px;
+}
+
+/* navbar */
+#navbar {
+    padding: 10px;
+    text-align: center;
+}
+
+#navbar a {
+    width: 140px;
+    color: #444;
+    font-weight: bold;
+}
+
+#navbar a:hover {
+    color: red;
+}
+
+/* main image */
+.main-image {
+    height: 400px;
+    background-image: url('imagens/AutismoSem.jpg');
+    position: relative;
+    margin-bottom: 30px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.main-image-info {
+    padding: 25px;
+    position: absolute;
+    left: 905px;
+    bottom: 25px;
+}
+
+/* gallery */
+.home {
+    max-width: 1500px;
+    margin: 0;
+    width: 100%;
+    min-height: 640px;
+    display: flex;
+    align-items: center;
+}
+
+.home-text {
+    padding-left: 130px;
+}
+
+.home-text h1 {
+    font-size: 2.4rem;
+}
+
+.home-text span {
+    color: var(--main-color);
+}
+
+.home-text p {
+    font-size: 0.938rem;
+    font-weight: 300;
+    margin: 0.5rem 0 1.2rem;
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.row-2 .decorated-box {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 850px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.row-2 .decorated-box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.col-sm-12{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+/* footer */
+.footer {
+    background-color: beige;
+    border-top: 2px solid var(--main-color);
+    width: 100%;
+    display: flex;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.footer-container img {
+    width: 100px;
+}
+
+.footer-container .footer-box {
+    width: 7px;
+    padding-left: 20px;
+    display: flex;
+    font-size: 20px;
+    text-align: left;
+}
+
+.social {
+    display: flex;
+    text-align: right;
+    padding-left: 1000px;
+    padding-top: 5px;
+}
+
+.social a {
+    font-size: 40px;
+    color: var(--main-color);
+}
+
+.social a:hover {
+    color: var(--main-color);
+}
+
+.footer-box a,
+.footer-box p {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.footer-box a:hover {
+    color: var(--main-color);
+}
